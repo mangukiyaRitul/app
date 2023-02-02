@@ -1,3 +1,4 @@
+import 'package:app/calling.dart';
 import 'package:app/fisrt.dart';
 import 'package:flutter/material.dart';
 
@@ -14,9 +15,9 @@ class _secondState extends State<second> {
     return Scaffold(
       body: ElevatedButton(onPressed: (){
         Navigator.push(context, MaterialPageRoute(builder: (context) {
-          return  fisrt();
+          return  calling();
         }, ) );
-        Navigator.pushNamed(context, "f");
+        Navigator.pushNamed(context, "c");
 
       }, child: Text("Go to fisrt"))
 
